@@ -1,0 +1,19 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    color: blue;
+}
+
+.destacado {
+    background-color: yellow;
+    padding: bold;
+}
+
+.pie {
+    width: 10%;
+    padding: 50px 50px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
