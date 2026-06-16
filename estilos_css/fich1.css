@@ -1,18 +1,22 @@
 * {
+    background-color: orange;
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* Esto es para móvil (por defecto) */
+/* Esto es para móvil (es lo que se debe tocar primero) */
 .contenedor {
   width: 50%;
   padding: 10px;
-  background-color: orange; 
+  font-size: 20px;
+  line-height: 1.5; 
+}
+.contenedor a:hover {
+    color: green;
 }
 
-/* Ordenadores (1024px+) */
+/* Para ordenadores (1024px+) */
 @media (min-width: 1024px) {
     .contenedor {
-    background-color: orange;
     padding: bold;
     position: relative;
 }
@@ -31,7 +35,11 @@
     flex-direction: column;
     justify-content: center;   
     align-items: center; 
-    gap: 16px;
+    gap: 16px; 
+}
+
+a:hover {
+  color: green;
 }
 
 ul {
@@ -43,6 +51,3 @@ ul {
 }
 
 }
-
-
-
