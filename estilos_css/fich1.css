@@ -2,20 +2,27 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-p {
-    color: blue;
+/* Esto es para móvil (por defecto) */
+.contenedor {
+  width: 50%;
+  padding: 10px;
+  background-color: orange; 
 }
 
-.destacado {
-    background-color: yellow;
+/* Ordenadores (1024px+) */
+@media (min-width: 1024px) {
+    .contenedor {
+    background-color: orange;
     padding: bold;
+    position: relative;
 }
 
 .pie {
-    width: 10%;
+    width: 30%;
     padding: 50px 50px;
     border: 2px solid black;
     box-sizing: border-box;
+    position: absolute;
 }
 
 
@@ -26,3 +33,16 @@ p {
     align-items: center; 
     gap: 16px;
 }
+
+ul {
+    display: flex;
+    gap: 36px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: medium;
+    color: red;
+}
+
+}
+
+
+
