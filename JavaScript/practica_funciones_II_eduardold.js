@@ -6,7 +6,7 @@ console.log("Estoy aprendiendo JavaScript paso a paso");
 
 let resultado = 8*3;
 
-console.log("Este es el resultado de la multiplicacion ocho por tres: " + resultado);
+console.log("Este es el resultado de la multiplicacion ocho por tres: " , resultado);
 
 // Ejercicio 3
 
@@ -16,7 +16,7 @@ console.log("JavaScript se ejecuta en el navegador");
 
 let resultado = 144/12;
 
-console.log("Este es el resultado de la división 144 entre 12: " + resultado);
+console.log("Este es el resultado de la división 144 entre 12: " , resultado);
 
 // Ejercicio 5
 
@@ -27,13 +27,13 @@ console.log("Fin del programa");
 
 let producto = teclado;
 
-console.log("Este es el resultado de la variable: " + producto);
+console.log("Este es el resultado de la variable: " , producto);
 
 // Ejercicio 7
 
 const iva = 21;
 
-console.log("Este es el valor del IVA habitualmente: " + iva);
+console.log("Este es el valor del IVA habitualmente: " , iva);
 
 // Ejercicio 8
 
@@ -45,7 +45,7 @@ console.log("Este es precio del producto " + precioBase);
 
 // Ejercicio 10
 
-let mensajeBienvenida = "Bienvenidx a JSs";
+let mensajeBienvenida = "Bienvenidx al curso inclusivo de diseno web";
 
 console.log(mensajeBienvenida);
 
@@ -53,7 +53,7 @@ console.log(mensajeBienvenida);
 
 let cantidadProductos = 22;
 
-console.log("Este es la cantidad de productos solicitados: " + cantidadProductos);
+console.log("Este es la cantidad de productos solicitados: " , cantidadProductos);
 
 // Ejercicio 12
 
@@ -64,7 +64,7 @@ console.log("Este es la cantidad de productos solicitados: " + cantidadProductos
 let nombreCurso = "Administracion de Sistemas Operativos";
 const duracionHoras = 250;
 
-console.log("Este es el nombre del curso que repites: " + cantidadProductos + ", con una duración de " , duracionHoras , "horas");
+console.log("Este es el nombre del curso que repites: " , cantidadProductos + ", con una duración de " , duracionHoras , "horas");
 
 // Ejercicio 14
 
@@ -76,11 +76,11 @@ console.log("Esta es tu nota: " + puntuacion);
 
 const herramientas = ["VisualStudio", "Git", "Moodle"];
 
-console.log("Este es el contenido del array: " + herramientas);
+console.log("Este es el contenido del array: " , herramientas);
 
 // Ejercicio 16
 
-let stockDisponible = 0;
+let stockDisponible = 20;
 
 if (stockDisponible > 0)
 {
@@ -151,3 +151,95 @@ for (limite; limite <= 30; limite++) {
 
 // Ejercicio 23
 
+let multiplica = 3;
+let limite = 10;
+
+for (limite; limite <= 10; limite++) {
+    console.log("Este es el resultado de " , limite*multiplica)
+}
+
+// Ejercicio 24
+
+let colores = ["Naranja", "Verde", "Rojo"];
+
+while (colores, colores++) {
+    console.log("El semáforo puede indicar color " , color)
+}
+
+// Ejercicio 25
+for (let countdown = 10; countdown >= 1; countdown--) {
+    console.log(countdown);
+}
+
+// Ejercicio 26
+
+function mostrarMensaje() {
+    console.log("Función ejecutada correctamente");
+}
+
+mostrarMensaje();
+
+// Ejercicio 27
+
+function calcularTriple(numero) {
+    return numero * 3;
+}
+
+let resultado = calcularTriple(5);
+console.log(resultado);
+
+// Ejercicio 28
+
+const crearSaludo = function(nombre) {
+    return "Bienvenido/a, " + nombre;
+};
+
+console.log(crearSaludo("Eduardo"));
+
+// Ejercicio 29
+
+function esMayorQueCien(numero) {
+    return numero > 100;
+}
+
+// Ejercicio 30
+
+let descuento = 10;
+
+function aplicarDescuento(precio) {
+    return precio - descuento;
+}
+
+// Ejercicio 31
+
+const unirPalabras = function(palabra1, palabra2) {
+    return palabra1 + " " + palabra2;
+};
+
+// Ejercicio 32
+
+let impuesto = 5;
+
+function sumarImpuesto(precio) {
+    return precio + impuesto;
+}
+
+// Ejercicio 33
+
+function obtenerPrimeraLetra(palabra) {
+    return palabra[0];
+}
+
+// Ejercicio 34
+
+const calcularAreaRectangulo = function(base, altura) {
+    return base * altura;
+};
+
+// Ejercicio 35
+
+let mensajeFinal = "Proceso completado con éxito";
+
+function mostrarMensajeFinal() {
+    return mensajeFinal;
+}

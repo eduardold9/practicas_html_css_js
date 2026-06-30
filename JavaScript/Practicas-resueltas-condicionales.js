@@ -67,9 +67,21 @@ console.log(suma);
 
 // Ejercicio 8
 
+let contador = 10;
+
+while (contador >= 1) {
+    console.log(contador);
+    contador--;
+}
 
 // Ejercicio 9
 
+let saldo = 0;
+
+for (let mes = 1; mes <= 12; mes++) {
+    saldo += 50;
+    console.log("Mes " + mes + ": " + saldo + "€");
+}
 
 // Ejercicio 10
 
@@ -79,5 +91,5 @@ if (alturamin >= 120) {
     console.log("La altura " + alturamin + " que has indicado es superior a 120 cm. Puedes pasar.");    
 }
 else {
-    console.log("La altura " + alturamin + " que has indicado es inferior a 120 cm. NO puedes pasar.");  
+    console.log("La altura " + alturamin + " que has indicado es inferior a 120 cm. No puedes pasar.");  
 }
